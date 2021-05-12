@@ -1,0 +1,11 @@
+def solution(array, commands):
+  a = [] # a,b 하나라도 선언 안하면 에러
+  b = []
+  for c in range(len(commands)):
+    i = commands[:][c][0]
+    j = commands[:][c][1]
+    k = commands[:][c][2]
+    a.append(array[i-1:j]) # (i,j)번째 원소 슬라이싱
+    a[c].sort() # 정렬
+    b.append(a[c][k-1]) # k번째수 따로 저장
+  return b
