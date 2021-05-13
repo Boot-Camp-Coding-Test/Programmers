@@ -4,7 +4,7 @@ def solution(answers):
     b = [2, 1, 2, 3 ,2, 4, 2, 5] * 1250
     c = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5] * 1000
     
-    if len(a) >= len(answers) :
+    if len(a) >= len(answers) : ##이게 없어도 될듯 함..
         for i in range(len(answers)) :
             if a[i] != answers[i]:
                 a[i] = 0
