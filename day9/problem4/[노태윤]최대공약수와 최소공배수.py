@@ -1,0 +1,16 @@
+# 최대공약수
+def gcd(a,b) :
+    if b == 0 :
+        return a 
+    else :
+        return gcd(b,a%b)
+
+# 최소공배수
+def lcm(a,b) :
+    return (a*b) / gcd(a,b)
+
+def solution(n, m):
+    answer = []
+    answer.append(gcd(n,m))
+    answer.append(lcm(n,m))
+    return answer
