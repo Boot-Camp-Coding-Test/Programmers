@@ -3,8 +3,8 @@
 
 | Day | Level | 문제번호 |   문제이름    | 출처 | 유형 |
 |-----|-------|-------|--------------| ------| ----|
-| Day1 | 1 |   | 제일 작은 수 제거하기     | [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12935?language=python3)
-| Day1 | 1 |   | 크레인 인형뽑기 게임      | [2019 카카오 개발자 겨울 인턴십](https://programmers.co.kr/learn/courses/30/lessons/64061?language=python3)
+| Day1 | 1 | 1 | 제일 작은 수 제거하기     | [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12935?language=python3)
+| Day1 | 1 | 2 | 크레인 인형뽑기 게임      | [2019 카카오 개발자 겨울 인턴십](https://programmers.co.kr/learn/courses/30/lessons/64061?language=python3)
 |--|--|--|--|--|--|
 | Day2 | 1 | 1 | 완주하지 못한 선수       | [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42576) | 해시
 | Day2 | 2 | 2 | 기능개발               | [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42586) | 스택/큐
