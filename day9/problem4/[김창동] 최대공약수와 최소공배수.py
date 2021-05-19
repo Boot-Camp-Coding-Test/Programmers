@@ -4,13 +4,12 @@ from functools import reduce
 def solution(n, m):
     div, min_= 2, []
 
-    while div < n+1 and div < m+1:
+    while div < n+1 and div < m+1: # 공약수가 점점 커져 나눌값보다 커지기 전까지
         if n % div == 0 and m % div == 0: # 공약수 산출
             n /= div
             m /= div
             min_.append(div)
             continue
-
         div += 1
         
     if len(min_):
