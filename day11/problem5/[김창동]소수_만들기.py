@@ -17,16 +17,16 @@ def is_prime(n):
   
  
 # 이게 왜 안되는지 모르겠다.
-def solution(nums):
-    result = []
+# def solution(nums):
+#     result = []
     
-    for x in nums:
-        a, b = nums.copy(), nums.copy()
-        a.remove(x)
-        b.remove(x)
-        for y in a:
-            b.remove(y)
-            for z in b:
-                if is_prime(x+y+z):
-                    result.append(x+y+z)
-    return len(list(set(result)))
+#     for x in nums:
+#         a, b = nums.copy(), nums.copy()
+#         a.remove(x)
+#         b.remove(x)
+#         for y in a:
+#             b.remove(y)
+#             for z in b:
+#                 if is_prime(x+y+z):
+#                     result.append(x+y+z)
+#     return len(list(set(result)))
