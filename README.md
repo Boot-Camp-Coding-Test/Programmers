@@ -48,3 +48,8 @@
 | Day10 | 1 | 3 | 다트게임                | [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/17682?language=python3) | 2018 KAKAO BLIND RECRUITMENT
 | Day10 | 1 | 4 | 비밀지도                | [프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/17681?language=python3) | 2018 KAKAO BLIND RECRUITMENT
 |--|--|--|--|--|--|
+|Day11|1|1|직사각형 별찍기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12969)|연습문제|
+|Day11|1|2|행렬의 덧셈|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12950)|연습문제|
+|Day11|1|3|콜라츠 추측|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12943)|연습문제|
+|Day11|1|4|이상한 문자 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12930)|연습문제|
+|Day11|1|5|소수 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12977)|Summer/Winter Coding(~2018)|
