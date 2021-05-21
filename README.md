@@ -53,3 +53,11 @@
 |Day11|1|3|콜라츠 추측|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12943)|연습문제|
 |Day11|1|4|이상한 문자 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12930)|연습문제|
 |Day11|1|5|소수 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12977)|Summer/Winter Coding(~2018)|
+|--|--|--|--|--|--|
+|Day12|1|1|정수 내림차순으로 배치하기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12933)|연습문제|
+|Day12|1|2|문자열 내림차순으로 배치하기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12917)|연습문제|
+|Day12|1|3|시저 암호|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12926)|연습문제|
+|Day12|1|4|문자열 내 마음대로 정렬하기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12915)|연습문제|
+|Day12|1|5|3진법 뒤집기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/68935)|월간 코드 챌린지 시즌1|
+|--|--|--|--|--|--|
+
