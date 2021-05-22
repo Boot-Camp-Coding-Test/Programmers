@@ -60,4 +60,5 @@
 |Day12|1|4|문자열 내 마음대로 정렬하기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12915)|연습문제|
 |Day12|1|5|3진법 뒤집기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/68935)|월간 코드 챌린지 시즌1|
 |--|--|--|--|--|--|
-
+|Day13|1|1|예산|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12982)|Summer/Winter Coding(~2018)|
+|--|--|--|--|--|--|
