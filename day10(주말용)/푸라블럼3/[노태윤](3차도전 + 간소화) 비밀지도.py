@@ -103,3 +103,32 @@ def solution(n, arr1, arr2):
 # Key Points
 # 처음에 0 을 이진수로 변환해줄 때 error 가 발생했었음
 # 예외처리 해주니까 제대로 돌아감 
+
+# =========================================================================
+# 3차 도전 + 간소화
+
+def solution(n, arr1, arr2):
+    answer = []
+    for a,b in zip(arr1,arr2) :
+        zipped = format(a|b,'b').zfill(n) # or operation 쓰고 2진수로 표현 --> 0 채우기
+        zipped = zipped.replace('1','#') # '1' 을 '#' 으로 바꾸기
+        zipped = zipped.replace('0',' ') # '0' 을 ' ' 으로 바꾸기
+        answer.append(zipped)
+    return answer
+
+# Key points
+    # int 형끼리 | (or) 또는 $ (and) operation 이 사용가능하다
+    
+    # ex)
+    # 9 & 30 
+        # 9 --> 2진수 --> 01001
+        # 30 --> 2진수 --> 11110
+        
+        # and 는 둘이 같을 때만 1, 나머지는 0 반환 --> 01000 --> 10진수 --> 8
+    
+    # 9 | 30
+        # or 는 둘 중 하나라도 1이면 1 반환, 나머지는 0 반환 --> 11111 --> 31
+    
+    # zfill()
+        # '003'.zfill(5) 라고 하면 5 - len('003') 만큼 앞에 '0' 을 추가한다는 의미
+        # ==> 00003
