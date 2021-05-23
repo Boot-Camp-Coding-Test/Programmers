@@ -163,3 +163,58 @@ def solution(numbers,hand) :
     # 처음에는 거리라고 해서 당연히 삼각형으로 비유하자면 대각선 길이를 구하는 건 줄 알았다
     # 문제 설명에 '엄지손가락은 상하좌우 4가지 방향으로만 이동할 수 있으며 키패드 이동 한 칸은 거리로 1에 해당합니다' 라고 적혀 있음
     # 대각선 길이가 아니라 밑변과 높이의 합을 구하라는 의미 였음...
+
+# =====================================================================================================================================
+# 3차 도전
+
+# 좌표값 np.argwhere().flatten().tolist() 로 한줄로 표현
+# 키패드도 바로 지정 
+
+import numpy as np
+
+def find_length(a,b) : 
+    dx = abs(b[0]-a[0])
+    dy = abs(b[1]-a[1])
+    return dx+dy
+
+def solution(numbers,hand) : 
+    answer=''
+    phone_array = np.array([
+                            [1,2,3],
+                            [4,5,6],
+                            [7,8,9],
+                            ['*',0,'#']
+    ])
+
+    left_coordinates = np.argwhere(phone_array=='*').flatten().tolist()
+    right_coordinates = np.argwhere(phone_array=='#').flatten().tolist()
+
+    for i in numbers : 
+        if str(i) in ['1','4','7'] :
+            answer+='L'
+            left_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+        elif str(i) in ['3','6','9'] :
+            answer+='R'
+            right_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+        else :
+            center_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+            left_length = find_length(left_coordinates,center_coordinates)
+            right_length = find_length(right_coordinates,center_coordinates)
+
+            if left_length < right_length :
+                answer+='L'
+                left_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+            
+            elif left_length > right_length :
+                answer+='R'
+                right_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+            
+            elif left_length == right_length :
+                if hand.startswith('r') :
+                    answer+='R'
+                    right_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+                else :
+                    answer+='L'
+                    left_coordinates = np.argwhere(phone_array==str(i)).flatten().tolist()
+
+    return answer
