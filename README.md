@@ -62,3 +62,7 @@
 |--|--|--|--|--|--|
 |Day13|1|1|예산|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12982)|Summer/Winter Coding(~2018)|
 |--|--|--|--|--|--|
+|Day14|2|1|행렬의 곱셈|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12949)|연습문제|
+|Day14|2|2|피보나치 수|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12945)|연습문제|
+|Day14|1|3|실패율|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42889)|2019 KAKAO BLIND RECRUITMENT|
+|--|--|--|--|--|--|
