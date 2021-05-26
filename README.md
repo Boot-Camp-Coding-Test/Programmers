@@ -69,3 +69,6 @@
 |Day15|2|1|최댓값과 최솟값|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12939)|연습문제|
 |Day15|2|2|소수 찾기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42839)|완전탐색|
 |--|--|--|--|--|--|
+|Day16|2|1|JadenCase 문자열 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12951)|연습문제|
+|Day16|2|2|주식가격|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42584)|스택/큐|
+|--|--|--|--|--|--|
