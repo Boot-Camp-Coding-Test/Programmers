@@ -58,4 +58,4 @@ def solution(people, limit):
             # 리스트 pop 시간복잡도 --> O(n)
             # deque popleft / pop 시간복잡도 --> O(1)
             
-            # 알아두자!
+            # 알아두자!!
