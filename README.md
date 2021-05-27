@@ -72,3 +72,6 @@
 |Day16|2|1|JadenCase 문자열 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12951)|연습문제|
 |Day16|2|2|주식가격|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42584)|스택/큐|
 |--|--|--|--|--|--|
+|Day17|2|1|숫자의 표현|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12924)|연습문제|
+|Day17|2|2|구명보트|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42885)|탐욕법(Greedy)|
+|--|--|--|--|--|--|
