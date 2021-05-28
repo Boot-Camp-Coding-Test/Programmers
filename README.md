@@ -75,3 +75,6 @@
 |Day17|2|1|숫자의 표현|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12924)|연습문제|
 |Day17|2|2|구명보트|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/42885)|탐욕법(Greedy)|
 |--|--|--|--|--|--|
+|Day18|2|1|N개의 최소공배수|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12953)|연습문제|
+|Day18|1|2|신규 아이디 추천|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/72410)|2021 KAKAO BLIND RECRUITMENT|
+|--|--|--|--|--|--|
