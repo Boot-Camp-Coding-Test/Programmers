@@ -78,3 +78,6 @@
 |Day18|2|1|N개의 최소공배수|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12953)|연습문제|
 |Day18|1|2|신규 아이디 추천|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/72410)|2021 KAKAO BLIND RECRUITMENT|
 |--|--|--|--|--|--|
+|Day19|2|1|올바른 괄호|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12909)|연습문제|
+|Day19|1|2|폰켓몬|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/1845)|찾아라 프로그래밍 마에스터|
+|--|--|--|--|--|--|
