@@ -1,3 +1,5 @@
+# 테스트 7 ~ 20 시간 초과
+
 from itertools import combinations
 from collections import Counter
 
