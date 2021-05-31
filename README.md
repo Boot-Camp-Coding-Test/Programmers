@@ -81,3 +81,6 @@
 |Day19|2|1|올바른 괄호|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12909)|연습문제|
 |Day19|1|2|폰켓몬|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/1845)|찾아라 프로그래밍 마에스터|
 |--|--|--|--|--|--|
+|Day20|2|1|최솟값 만들기|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/12941)|연습문제|
+|Day20|1|2|로또의 최고 순위와 최저 순위|[프로그래머스](https://programmers.co.kr/learn/courses/30/lessons/77484)|2021 Dev-Matching: 웹 백엔드 개발자(상반기)|
+|--|--|--|--|--|--|
