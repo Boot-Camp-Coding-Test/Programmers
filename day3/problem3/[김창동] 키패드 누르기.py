@@ -3,15 +3,16 @@ def solution(numbers, hand):
     
     for n in numbers:
         loc = find_loc(n) # 위치 찾기
+        
         if n in [1, 4, 7]:
             value = 'L'
         elif n in [3, 6, 9]:
             value = 'R'
-        else:
-            value = comparison(left, right, loc)  # 2, 5, 8, 0
-        
-        if not value:       # 양손의 거리가 같아 0을 반환 받았을때
-            value = hand[0].upper()
+        else:   # 2, 5, 8, 0
+            value = comparison(left, right, loc)
+    
+            if not value:   # 양손의 거리가 같을때
+                value = hand[0].upper()
         
         if value == 'L':    # 엄지의 위치변경
             left = loc
